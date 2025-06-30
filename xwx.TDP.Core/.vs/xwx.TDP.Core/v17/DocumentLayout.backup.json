@@ -1,0 +1,334 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|c:\\users\\suxin\\desktop\\suxing\\source\\testdev\\tdp\\xwx.tdp.core\\xwx.tdp.editor\\engine\\tdpengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\engine\\tdpengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\logviews\\mainlogview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\logviews\\mainlogview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\sequenceeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\sequenceeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\sequenceselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\sequenceselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\sequenceselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\sequenceselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|c:\\users\\suxin\\desktop\\suxing\\source\\testdev\\tdp\\xwx.tdp.core\\xwx.tdp.editor\\logviews\\mainlogview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\logviews\\mainlogview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|c:\\users\\suxin\\desktop\\suxing\\source\\testdev\\tdp\\xwx.tdp.core\\xwx.tdp.editor\\sequenceeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\sequenceeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|c:\\users\\suxin\\desktop\\suxing\\source\\testdev\\tdp\\xwx.tdp.core\\xwx.tdp.editor\\engine\\testcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\engine\\testcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\caselibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\caselibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|c:\\users\\suxin\\desktop\\suxing\\source\\testdev\\tdp\\xwx.tdp.core\\xwx.tdp.editor\\caselibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\caselibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\sequenceselector.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\sequenceselector.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B18D863-A14F-42E7-A160-72CB0D5A44E5}|TestManager.Utility\\TestManager.Utility.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\testmanager.utility\\extendedcontrol\\treeviewex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B18D863-A14F-42E7-A160-72CB0D5A44E5}|TestManager.Utility\\TestManager.Utility.csproj|solutionrelative:testmanager.utility\\extendedcontrol\\treeviewex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.BaseCase.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.library.testcase\\messagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.BaseCase.csproj|solutionrelative:xwx.tdp.library.testcase\\messagebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\sequenceeditor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\sequenceeditor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.tdp.editor\\engine\\tdptestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA719B6-45CF-4D71-936D-167676C696F2}|xwx.TDP.Editor\\xwx.TDP.Editor.csproj|solutionrelative:xwx.tdp.editor\\engine\\tdptestcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TdpEngine.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\Engine\\TdpEngine.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\Engine\\TdpEngine.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\Engine\\TdpEngine.cs",
+              "RelativeToolTip": "xwx.TDP.Editor\\Engine\\TdpEngine.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAvwEQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T01:31:26.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SequenceSelector.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceSelector.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\SequenceSelector.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceSelector.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "xwx.TDP.Editor\\SequenceSelector.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T06:51:09.093Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SequenceEditor.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceEditor.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\SequenceEditor.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceEditor.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "xwx.TDP.Editor\\SequenceEditor.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T05:54:13.609Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SequenceSelector.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceSelector.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\SequenceSelector.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceSelector.cs",
+              "RelativeToolTip": "xwx.TDP.Editor\\SequenceSelector.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAArwLcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T08:50:15.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainLogView.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\LogViews\\MainLogView.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\LogViews\\MainLogView.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\LogViews\\MainLogView.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "xwx.TDP.Editor\\LogViews\\MainLogView.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T06:30:16.017Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CaseLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\CaseLibrary.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\CaseLibrary.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\CaseLibrary.cs",
+              "RelativeToolTip": "xwx.TDP.Editor\\CaseLibrary.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwFkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T08:48:19.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SequenceEditor.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceEditor.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\SequenceEditor.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceEditor.cs",
+              "RelativeToolTip": "xwx.TDP.Editor\\SequenceEditor.cs",
+              "ViewState": "AgIAACMDAAAAAAAAAADgvzMDAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:16:57.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLogView.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\LogViews\\MainLogView.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\LogViews\\MainLogView.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\LogViews\\MainLogView.cs",
+              "RelativeToolTip": "xwx.TDP.Editor\\LogViews\\MainLogView.cs",
+              "ViewState": "AgIAABwGAAAAAAAAAAArwDMGAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T01:19:29.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\MainForm.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\MainForm.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\MainForm.cs",
+              "RelativeToolTip": "xwx.TDP.Editor\\MainForm.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAWwDIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:28:55.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestCase.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\Engine\\TestCase.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\Engine\\TestCase.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\Engine\\TestCase.cs",
+              "RelativeToolTip": "xwx.TDP.Editor\\Engine\\TestCase.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAjwG0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:48:47.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\App.config",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\App.config",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\App.config",
+              "RelativeToolTip": "xwx.TDP.Editor\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-25T03:17:12.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CaseLibrary.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\CaseLibrary.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\CaseLibrary.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\CaseLibrary.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "xwx.TDP.Editor\\CaseLibrary.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T06:51:15.577Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\Program.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\Program.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\Program.cs",
+              "RelativeToolTip": "xwx.TDP.Editor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:52:06.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\MainForm.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\MainForm.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\MainForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "xwx.TDP.Editor\\MainForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T06:22:40.506Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SequenceSelector.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceSelector.Designer.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\SequenceSelector.Designer.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceSelector.Designer.cs",
+              "RelativeToolTip": "xwx.TDP.Editor\\SequenceSelector.Designer.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAArwK4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T08:52:39.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TreeViewEx.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\TestManager.Utility\\ExtendedControl\\TreeViewEx.cs",
+              "RelativeDocumentMoniker": "TestManager.Utility\\ExtendedControl\\TreeViewEx.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\TestManager.Utility\\ExtendedControl\\TreeViewEx.cs",
+              "RelativeToolTip": "TestManager.Utility\\ExtendedControl\\TreeViewEx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T08:03:55.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MessageBox.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Library.Testcase\\MessageBox.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\MessageBox.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Library.Testcase\\MessageBox.cs",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\MessageBox.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T06:39:47.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SequenceEditor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceEditor.Designer.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\SequenceEditor.Designer.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\SequenceEditor.Designer.cs",
+              "RelativeToolTip": "xwx.TDP.Editor\\SequenceEditor.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwO0BAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T06:08:28.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TdpTestCase.cs",
+              "DocumentMoniker": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\Engine\\TdpTestCase.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Editor\\Engine\\TdpTestCase.cs",
+              "ToolTip": "C:\\Users\\suxin\\Desktop\\suxing\\source\\TestDev\\TDP\\xwx.TDP.Core\\xwx.TDP.Editor\\Engine\\TdpTestCase.cs",
+              "RelativeToolTip": "xwx.TDP.Editor\\Engine\\TdpTestCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T05:20:54.069Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

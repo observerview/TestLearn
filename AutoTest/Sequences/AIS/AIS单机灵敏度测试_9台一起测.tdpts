@@ -1,0 +1,1082 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TSDP_TS>
+  <Name>AIS单机灵敏度测试_9台一起</Name>
+  <Author>sx</Author>
+  <CreatedTime>2024-12-05 19:02:12</CreatedTime>
+  <ModifiedTime>2025-01-15 10:06:35</ModifiedTime>
+  <Description>AIS单机灵敏度测试,主要替代灵敏度测试频繁手动操作</Description>
+  <GlobeEngineMode executedTimes="1">
+    <ErrorMode mode="Abort" retry="0" />
+    <FailMode mode="IgnoreFail" retry="0" />
+  </GlobeEngineMode>
+  <CaseSequence>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">灵敏度-114开始</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.SendRcCmd">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdString">0A A7 FF FF FF FF FF FF</Parameter>
+        <Parameter name="RcCmdName">全部擦除</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdNo">00</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.SendRcCmd">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdString">0A A9 FF FF FF FF FF FF</Parameter>
+        <Parameter name="RcCmdName">接收机通道接收消息计数清零</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdNo">00</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.SendRcCmd">
+      <EngineMode type="Skip">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdString">0A A0 FF FF FF FF FF FF</Parameter>
+        <Parameter name="RcCmdName">入境回放开始</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdNo">00</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.Init_3hAis">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters />
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.Send_3hAis_cmd">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="OutPutPower">-114</Parameter>
+        <Parameter name="RfAttenuation">90</Parameter>
+        <Parameter name="MsgCount">100</Parameter>
+        <Parameter name="MsgTimeInter">10</Parameter>
+        <Parameter name="MsgMode">local</Parameter>
+        <Parameter name="AIS1FrequencyOffset">0</Parameter>
+        <Parameter name="MMSI1_string">2058BEF53840C343942707A8AE540062207E000000FC4B</Parameter>
+        <Parameter name="AIS2FrequencyOffset">0</Parameter>
+        <Parameter name="MMSI2_string">2058BEF53840C343942707A8AE540062207E000000FC4B</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">5</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[995,1005] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">91</Parameter>
+        <Parameter name="RcCmdName">AIS1接收包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[995,1005] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">92</Parameter>
+        <Parameter name="RcCmdName">AIS2接收包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">5</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.Send_3hAis_cmd">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="OutPutPower">-114</Parameter>
+        <Parameter name="RfAttenuation">90</Parameter>
+        <Parameter name="MsgCount">100</Parameter>
+        <Parameter name="MsgTimeInter">10</Parameter>
+        <Parameter name="MsgMode">remote</Parameter>
+        <Parameter name="AIS1FrequencyOffset">0</Parameter>
+        <Parameter name="MMSI1_string">3658BEF538207606F513147CF3CF</Parameter>
+        <Parameter name="AIS2FrequencyOffset">0</Parameter>
+        <Parameter name="MMSI2_string">3658BEF538207606F513147CF3CF</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">5</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[995,1005] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">93</Parameter>
+        <Parameter name="RcCmdName">LAIS1接收包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[995,1005] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">94</Parameter>
+        <Parameter name="RcCmdName">LAIS2接收包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">105-141</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">105</Parameter>
+        <Parameter name="RcCmdName">AIS2信道噪底系数值</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">106</Parameter>
+        <Parameter name="RcCmdName">AIS2信道当次工作最大接收信号系数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">107</Parameter>
+        <Parameter name="RcCmdName">LAIS1信道噪底系数值</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">108</Parameter>
+        <Parameter name="RcCmdName">LAIS1信道当次工作最大接收信号系数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">109</Parameter>
+        <Parameter name="RcCmdName">LAIS2信道噪底系数值</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">110</Parameter>
+        <Parameter name="RcCmdName">LAIS2信道当次工作最大接收信号系数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">133</Parameter>
+        <Parameter name="RcCmdName">AIS1存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">134</Parameter>
+        <Parameter name="RcCmdName">AIS2存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">135</Parameter>
+        <Parameter name="RcCmdName">LAIS1存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">136</Parameter>
+        <Parameter name="RcCmdName">LAIS2存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">137</Parameter>
+        <Parameter name="RcCmdName">ASM1存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">138</Parameter>
+        <Parameter name="RcCmdName">ASM2存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">139</Parameter>
+        <Parameter name="RcCmdName">写入页计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">140</Parameter>
+        <Parameter name="RcCmdName">回放页计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">141</Parameter>
+        <Parameter name="RcCmdName">回放帧计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Skip">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">灵敏度-118开始</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.SendRcCmd">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdString">0A A9 FF FF FF FF FF FF</Parameter>
+        <Parameter name="RcCmdName">接收机通道接收消息计数清零</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdNo">00</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.Send_3hAis_cmd">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="OutPutPower">-118</Parameter>
+        <Parameter name="RfAttenuation">90</Parameter>
+        <Parameter name="MsgCount">100</Parameter>
+        <Parameter name="MsgTimeInter">10</Parameter>
+        <Parameter name="MsgMode">local</Parameter>
+        <Parameter name="AIS1FrequencyOffset">0</Parameter>
+        <Parameter name="MMSI1_string">2058BEF53840C343942707A8AE540062207E000000FC4B</Parameter>
+        <Parameter name="AIS2FrequencyOffset">0</Parameter>
+        <Parameter name="MMSI2_string">2058BEF53840C343942707A8AE540062207E000000FC4B</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">5</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">91</Parameter>
+        <Parameter name="RcCmdName">AIS1接收包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">92</Parameter>
+        <Parameter name="RcCmdName">AIS2接收包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">5</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.Send_3hAis_cmd">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="OutPutPower">-118</Parameter>
+        <Parameter name="RfAttenuation">90</Parameter>
+        <Parameter name="MsgCount">100</Parameter>
+        <Parameter name="MsgTimeInter">10</Parameter>
+        <Parameter name="MsgMode">remote</Parameter>
+        <Parameter name="AIS1FrequencyOffset">0</Parameter>
+        <Parameter name="MMSI1_string">3658BEF538207606F513147CF3CF</Parameter>
+        <Parameter name="AIS2FrequencyOffset">0</Parameter>
+        <Parameter name="MMSI2_string">3658BEF538207606F513147CF3CF</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">93</Parameter>
+        <Parameter name="RcCmdName">LAIS1接收包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">94</Parameter>
+        <Parameter name="RcCmdName">LAIS1接收包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">105-141</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">105</Parameter>
+        <Parameter name="RcCmdName">AIS2信道噪底系数值</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">106</Parameter>
+        <Parameter name="RcCmdName">AIS2信道当次工作最大接收信号系数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">107</Parameter>
+        <Parameter name="RcCmdName">LAIS1信道噪底系数值</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">108</Parameter>
+        <Parameter name="RcCmdName">LAIS1信道当次工作最大接收信号系数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">109</Parameter>
+        <Parameter name="RcCmdName">LAIS2信道噪底系数值</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">110</Parameter>
+        <Parameter name="RcCmdName">LAIS2信道当次工作最大接收信号系数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">133</Parameter>
+        <Parameter name="RcCmdName">AIS1存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">134</Parameter>
+        <Parameter name="RcCmdName">AIS2存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">135</Parameter>
+        <Parameter name="RcCmdName">LAIS1存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">136</Parameter>
+        <Parameter name="RcCmdName">LAIS2存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">137</Parameter>
+        <Parameter name="RcCmdName">ASM1存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">138</Parameter>
+        <Parameter name="RcCmdName">ASM2存储包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">139</Parameter>
+        <Parameter name="RcCmdName">写入页计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">140</Parameter>
+        <Parameter name="RcCmdName">回放页计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">141</Parameter>
+        <Parameter name="RcCmdName">回放帧计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryRetrunString">
+      <EngineMode type="Skip">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdNo">91</Parameter>
+        <Parameter name="RcCmdName">MCU镜像保存状态</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="Name">ID1</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1791</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Skip">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">5</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+  </CaseSequence>
+</TSDP_TS>

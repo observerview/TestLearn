@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Config>
+    <Name>PsuDriver</Name>
+    <Value msdata:InstanceType="xwx.TDP.Library.Common.DevInfo, xwx.TDP.Library.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DevInfo DevType="Simulated PSU" DevAddr="TCPIP0::192.168.100.100::INSTR" Global="True" IsRemote="False" SvrAddr="" /&gt;</Value>
+  </Config>
+  <Config>
+    <Name>IsRemoteDriverType</Name>
+    <Value xsi:type="xs:boolean" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</Value>
+  </Config>
+  <Config>
+    <Name>InstrumentsServerIp</Name>
+    <Value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">192.168.0.1</Value>
+  </Config>
+</DocumentElement>

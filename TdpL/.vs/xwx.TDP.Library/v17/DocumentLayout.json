@@ -1,0 +1,528 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AutoTest\\Source\\TdpL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9471C90B-2665-49C6-9502-99E2E897DBB0}|xwx.TDP.Library.DTC\\xwx.TDP.Library.DTC.csproj|c:\\autotest\\source\\tdpl\\xwx.tdp.library.dtc\\cases\\getn5222bdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9471C90B-2665-49C6-9502-99E2E897DBB0}|xwx.TDP.Library.DTC\\xwx.TDP.Library.DTC.csproj|solutionrelative:xwx.tdp.library.dtc\\cases\\getn5222bdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F311B68A-E816-4982-BCA0-A0A4B8CF7012}|WirelessCommon\\WirelessCommon.csproj|c:\\autotest\\source\\tdpl\\wirelesscommon\\visa\\localsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F311B68A-E816-4982-BCA0-A0A4B8CF7012}|WirelessCommon\\WirelessCommon.csproj|solutionrelative:wirelesscommon\\visa\\localsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F311B68A-E816-4982-BCA0-A0A4B8CF7012}|WirelessCommon\\WirelessCommon.csproj|c:\\autotest\\source\\tdpl\\wirelesscommon\\visa\\messagebaseinstrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F311B68A-E816-4982-BCA0-A0A4B8CF7012}|WirelessCommon\\WirelessCommon.csproj|solutionrelative:wirelesscommon\\visa\\messagebaseinstrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9471C90B-2665-49C6-9502-99E2E897DBB0}|xwx.TDP.Library.DTC\\xwx.TDP.Library.DTC.csproj|c:\\autotest\\source\\tdpl\\xwx.tdp.library.dtc\\cases\\commonvisaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9471C90B-2665-49C6-9502-99E2E897DBB0}|xwx.TDP.Library.DTC\\xwx.TDP.Library.DTC.csproj|solutionrelative:xwx.tdp.library.dtc\\cases\\commonvisaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9471C90B-2665-49C6-9502-99E2E897DBB0}|xwx.TDP.Library.DTC\\xwx.TDP.Library.DTC.csproj|c:\\autotest\\source\\tdpl\\xwx.tdp.library.dtc\\cases\\commonvisawrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9471C90B-2665-49C6-9502-99E2E897DBB0}|xwx.TDP.Library.DTC\\xwx.TDP.Library.DTC.csproj|solutionrelative:xwx.tdp.library.dtc\\cases\\commonvisawrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}|xwx.TDP.Common.Instruments\\xwx.TDP.Common.Instruments.csproj|c:\\autotest\\source\\tdpl\\xwx.tdp.common.instruments\\messageinstruments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}|xwx.TDP.Common.Instruments\\xwx.TDP.Common.Instruments.csproj|solutionrelative:xwx.tdp.common.instruments\\messageinstruments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|c:\\autotest\\source\\tdpl\\xwx.tdp.library.testcase\\cases\\instrumentsinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\cases\\instrumentsinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.testcase\\cases\\poweron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\cases\\poweron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|c:\\autotest\\source\\tdpl\\xwx.tdp.library.testcase\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}|xwx.TDP.Common.Instruments\\xwx.TDP.Common.Instruments.csproj|c:\\autotest\\source\\tdpl\\xwx.tdp.common.instruments\\vna\\n5222b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}|xwx.TDP.Common.Instruments\\xwx.TDP.Common.Instruments.csproj|solutionrelative:xwx.tdp.common.instruments\\vna\\n5222b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}|xwx.TDP.Common.Instruments\\xwx.TDP.Common.Instruments.csproj|c:\\autotest\\source\\tdpl\\xwx.tdp.common.instruments\\vna\\vna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}|xwx.TDP.Common.Instruments\\xwx.TDP.Common.Instruments.csproj|solutionrelative:xwx.tdp.common.instruments\\vna\\vna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.testcase\\forms\\systemconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\forms\\systemconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.testcase\\forms\\systemconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\forms\\systemconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|c:\\autotest\\source\\tdpl\\xwx.tdp.library.testcase\\cases\\poweroff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\cases\\poweroff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|c:\\autotest\\source\\tdpl\\xwx.tdp.library.ais\\cases\\send_3hais_cmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|solutionrelative:xwx.tdp.library.ais\\cases\\send_3hais_cmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.ais\\cases\\recivetelemetryretrunstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|solutionrelative:xwx.tdp.library.ais\\cases\\recivetelemetryretrunstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.ais\\cases\\recivetelemetryvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|solutionrelative:xwx.tdp.library.ais\\cases\\recivetelemetryvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.ais\\cases\\init_3hais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|solutionrelative:xwx.tdp.library.ais\\cases\\init_3hais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.ais\\devs\\3haisemulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|solutionrelative:xwx.tdp.library.ais\\devs\\3haisemulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.ais\\devs\\dh1790psu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}|xwx.TDP.Library.AIS\\xwx.TDP.Library.AIS.csproj|solutionrelative:xwx.tdp.library.ais\\devs\\dh1790psu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}|xwx.TDP.Common.Instruments\\xwx.TDP.Common.Instruments.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.common.instruments\\psu\\dh1790.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}|xwx.TDP.Common.Instruments\\xwx.TDP.Common.Instruments.csproj|solutionrelative:xwx.tdp.common.instruments\\psu\\dh1790.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.testcase\\cases\\powerresetandreadcurrent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\cases\\powerresetandreadcurrent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.testcase\\apphooker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\apphooker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.testcase\\configurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\configurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.testcase\\forms\\devsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\forms\\devsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F311B68A-E816-4982-BCA0-A0A4B8CF7012}|WirelessCommon\\WirelessCommon.csproj|C:\\AutoTest\\Source\\TdpL\\wirelesscommon\\visa\\remotesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F311B68A-E816-4982-BCA0-A0A4B8CF7012}|WirelessCommon\\WirelessCommon.csproj|solutionrelative:wirelesscommon\\visa\\remotesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F311B68A-E816-4982-BCA0-A0A4B8CF7012}|WirelessCommon\\WirelessCommon.csproj|C:\\AutoTest\\Source\\TdpL\\wirelesscommon\\socket\\socketdev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F311B68A-E816-4982-BCA0-A0A4B8CF7012}|WirelessCommon\\WirelessCommon.csproj|solutionrelative:wirelesscommon\\socket\\socketdev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}|xwx.TDP.Common.Instruments\\xwx.TDP.Common.Instruments.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.common.instruments\\psu\\simulatepsu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}|xwx.TDP.Common.Instruments\\xwx.TDP.Common.Instruments.csproj|solutionrelative:xwx.tdp.common.instruments\\psu\\simulatepsu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.testcase\\forms\\devsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\forms\\devsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|C:\\AutoTest\\Source\\TdpL\\xwx.tdp.library.testcase\\forms\\devsettings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}|xwx.TDP.Library.Testcase\\xwx.TDP.Library.Common.csproj|solutionrelative:xwx.tdp.library.testcase\\forms\\devsettings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetN5222BData.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.DTC\\Cases\\GetN5222BData.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.DTC\\Cases\\GetN5222BData.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.DTC\\Cases\\GetN5222BData.cs",
+              "RelativeToolTip": "xwx.TDP.Library.DTC\\Cases\\GetN5222BData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:29:51.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessageInstruments.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Common.Instruments\\MessageInstruments.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Common.Instruments\\MessageInstruments.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Common.Instruments\\MessageInstruments.cs",
+              "RelativeToolTip": "xwx.TDP.Common.Instruments\\MessageInstruments.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T02:00:04.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageBaseInstrument.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\WirelessCommon\\Visa\\MessageBaseInstrument.cs",
+              "RelativeDocumentMoniker": "WirelessCommon\\Visa\\MessageBaseInstrument.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\WirelessCommon\\Visa\\MessageBaseInstrument.cs",
+              "RelativeToolTip": "WirelessCommon\\Visa\\MessageBaseInstrument.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAjwE0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:50:33.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocalSession.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\WirelessCommon\\Visa\\LocalSession.cs",
+              "RelativeDocumentMoniker": "WirelessCommon\\Visa\\LocalSession.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\WirelessCommon\\Visa\\LocalSession.cs",
+              "RelativeToolTip": "WirelessCommon\\Visa\\LocalSession.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAvwBwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T01:50:01.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommonVisaQuery.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.DTC\\Cases\\CommonVisaQuery.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.DTC\\Cases\\CommonVisaQuery.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.DTC\\Cases\\CommonVisaQuery.cs",
+              "RelativeToolTip": "xwx.TDP.Library.DTC\\Cases\\CommonVisaQuery.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAUwLMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:09:24.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommonVisaWrite.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.DTC\\Cases\\CommonVisaWrite.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.DTC\\Cases\\CommonVisaWrite.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.DTC\\Cases\\CommonVisaWrite.cs",
+              "RelativeToolTip": "xwx.TDP.Library.DTC\\Cases\\CommonVisaWrite.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAUwMIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:19:18.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PowerOn.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Cases\\PowerOn.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\Cases\\PowerOn.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Cases\\PowerOn.cs",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\Cases\\PowerOn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:57:06.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InstrumentsInit.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Cases\\InstrumentsInit.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\Cases\\InstrumentsInit.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Cases\\InstrumentsInit.cs",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\Cases\\InstrumentsInit.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T07:51:07.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "N5222B.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Common.Instruments\\VNA\\N5222B.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Common.Instruments\\VNA\\N5222B.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Common.Instruments\\VNA\\N5222B.cs",
+              "RelativeToolTip": "xwx.TDP.Common.Instruments\\VNA\\N5222B.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvw8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:00:58.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Settings.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\Settings.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Settings.cs",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\Settings.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:26:29.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VNA.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Common.Instruments\\VNA\\VNA.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Common.Instruments\\VNA\\VNA.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Common.Instruments\\VNA\\VNA.cs",
+              "RelativeToolTip": "xwx.TDP.Common.Instruments\\VNA\\VNA.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T07:28:42.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PowerOff.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Cases\\PowerOff.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\Cases\\PowerOff.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Cases\\PowerOff.cs",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\Cases\\PowerOff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T06:50:20.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SystemConfig.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Forms\\SystemConfig.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\Forms\\SystemConfig.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Forms\\SystemConfig.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\Forms\\SystemConfig.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T07:47:26.391Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SystemConfig.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Forms\\SystemConfig.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\Forms\\SystemConfig.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Forms\\SystemConfig.cs",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\Forms\\SystemConfig.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T07:47:29.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "3hAisEmulator.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Devs\\3hAisEmulator.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.AIS\\Devs\\3hAisEmulator.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Devs\\3hAisEmulator.cs",
+              "RelativeToolTip": "xwx.TDP.Library.AIS\\Devs\\3hAisEmulator.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAtwF0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T09:14:02.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Send_3hAis_cmd.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Cases\\Send_3hAis_cmd.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.AIS\\Cases\\Send_3hAis_cmd.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Cases\\Send_3hAis_cmd.cs",
+              "RelativeToolTip": "xwx.TDP.Library.AIS\\Cases\\Send_3hAis_cmd.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAmwAIBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T07:22:14.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "reciveTelemetryRetrunString.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Cases\\reciveTelemetryRetrunString.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.AIS\\Cases\\reciveTelemetryRetrunString.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Cases\\reciveTelemetryRetrunString.cs",
+              "RelativeToolTip": "xwx.TDP.Library.AIS\\Cases\\reciveTelemetryRetrunString.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAWwMcAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T02:19:08.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "reciveTelemetryValue.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Cases\\reciveTelemetryValue.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.AIS\\Cases\\reciveTelemetryValue.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Cases\\reciveTelemetryValue.cs",
+              "RelativeToolTip": "xwx.TDP.Library.AIS\\Cases\\reciveTelemetryValue.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAswLsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T02:50:42.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Init_3hAis.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Cases\\Init_3hAis.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.AIS\\Cases\\Init_3hAis.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Cases\\Init_3hAis.cs",
+              "RelativeToolTip": "xwx.TDP.Library.AIS\\Cases\\Init_3hAis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T02:19:43.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DH1790Psu.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Devs\\DH1790Psu.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.AIS\\Devs\\DH1790Psu.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.AIS\\Devs\\DH1790Psu.cs",
+              "RelativeToolTip": "xwx.TDP.Library.AIS\\Devs\\DH1790Psu.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAADwv1MAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:57:41.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DH1790.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Common.Instruments\\PSU\\DH1790.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Common.Instruments\\PSU\\DH1790.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Common.Instruments\\PSU\\DH1790.cs",
+              "RelativeToolTip": "xwx.TDP.Common.Instruments\\PSU\\DH1790.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T06:10:23.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PowerResetAndReadCurrent.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Cases\\PowerResetAndReadCurrent.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\Cases\\PowerResetAndReadCurrent.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Cases\\PowerResetAndReadCurrent.cs",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\Cases\\PowerResetAndReadCurrent.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAgwK0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T05:40:54.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Configurations.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Configurations.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\Configurations.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Configurations.cs",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\Configurations.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T06:17:13.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RemoteSession.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\WirelessCommon\\Visa\\RemoteSession.cs",
+              "RelativeDocumentMoniker": "WirelessCommon\\Visa\\RemoteSession.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\WirelessCommon\\Visa\\RemoteSession.cs",
+              "RelativeToolTip": "WirelessCommon\\Visa\\RemoteSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T02:01:56.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppHooker.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\AppHooker.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\AppHooker.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\AppHooker.cs",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\AppHooker.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAEwIoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:36:39.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SimulatePSU.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Common.Instruments\\PSU\\SimulatePSU.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Common.Instruments\\PSU\\SimulatePSU.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Common.Instruments\\PSU\\SimulatePSU.cs",
+              "RelativeToolTip": "xwx.TDP.Common.Instruments\\PSU\\SimulatePSU.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T06:02:52.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DevSettings.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Forms\\DevSettings.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\Forms\\DevSettings.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Forms\\DevSettings.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\Forms\\DevSettings.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:11:44.596Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SocketDev.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\WirelessCommon\\Socket\\SocketDev.cs",
+              "RelativeDocumentMoniker": "WirelessCommon\\Socket\\SocketDev.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\WirelessCommon\\Socket\\SocketDev.cs",
+              "RelativeToolTip": "WirelessCommon\\Socket\\SocketDev.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:45:55.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DevSettings.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Forms\\DevSettings.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\Forms\\DevSettings.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Forms\\DevSettings.cs",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\Forms\\DevSettings.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAADwv1MAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:30:08.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DevSettings.Designer.cs",
+              "DocumentMoniker": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Forms\\DevSettings.Designer.cs",
+              "RelativeDocumentMoniker": "xwx.TDP.Library.Testcase\\Forms\\DevSettings.Designer.cs",
+              "ToolTip": "C:\\AutoTest\\Source\\TdpL\\xwx.TDP.Library.Testcase\\Forms\\DevSettings.Designer.cs",
+              "RelativeToolTip": "xwx.TDP.Library.Testcase\\Forms\\DevSettings.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T05:21:24.132Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

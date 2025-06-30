@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B18D863-A14F-42E7-A160-72CB0D5A44E5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestManager.Utility</RootNamespace>
+    <AssemblyName>TestManager.Utility</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\..\..\AutoTest\Applications\Core\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\ICSharpCode.SharpZipLib.dll.0.85.4.369\lib\net20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExtendedControl\ConsoleOutputTextWriter.cs" />
+    <Compile Include="ExtendedControl\ConsoleOutputTextWriterSimplified.cs" />
+    <Compile Include="ExtendedControl\EnumDataSourceWrapper.cs" />
+    <Compile Include="ExtendedControl\GraphViewNavigatedEventArgs.cs" />
+    <Compile Include="ExtendedControl\GraphViewNavigation.cs" />
+    <Compile Include="ExtendedControl\GraphViewSavedFileExt.cs" />
+    <Compile Include="ExtendedControl\GraphViewType.cs" />
+    <Compile Include="ExtendedControl\ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtendedControl\TreeViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtendedControl\Win32Api.cs" />
+    <Compile Include="GenericForm\MessageBoxEx.cs" />
+    <Compile Include="GenericForm\MessageBoxExCore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Misc\FolderCompresserZip.cs" />
+    <Compile Include="Misc\Utilities.cs" />
+    <Compile Include="PropertyGridEx\ConfigBase.cs" />
+    <Compile Include="PropertyGridEx\ConfigPropertyValueChangedEventArgs.cs" />
+    <Compile Include="PropertyGridEx\ConfigPropertyValueChangedEventHandler.cs" />
+    <Compile Include="PropertyGridEx\DefaultArrayConverter.cs" />
+    <Compile Include="PropertyGridEx\DefaultCollcetionConverter.cs" />
+    <Compile Include="PropertyGridEx\DisplayColorAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyGridEx\EnumConverterEx.cs" />
+    <Compile Include="PropertyGridEx\EnumDisplayNameAttribute.cs" />
+    <Compile Include="PropertyGridEx\ExpandableObjectConverterEx.cs" />
+    <Compile Include="PropertyGridEx\PropertyDescriptorEx.cs" />
+    <Compile Include="PropertyGridEx\PropertyGridEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PropertyGridEx\TypeConverterEx.cs" />
+    <Compile Include="PropertyGridEx\TypeDescriptorEx.cs" />
+    <Compile Include="PropertyGridEx\UITypeEditorEx.cs" />
+    <Compile Include="PropertyGridEx\ValueLimit.cs" />
+    <Compile Include="PropertyGridEx\ValueLimitCollection.cs" />
+    <Compile Include="PropertyGridEx\ValueLimitCollectionConverter.cs" />
+    <Compile Include="PropertyGridEx\ValueLimitConverter.cs" />
+    <Compile Include="PropertyGridEx\ValueLimitsAttribute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GenericForm\MessageBoxExCore.resx">
+      <DependentUpon>MessageBoxExCore.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

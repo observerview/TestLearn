@@ -1,0 +1,135 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="xwx.TDP.Editor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Internal_ApplicationFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">applications</Value>
+    </Setting>
+    <Setting Name="Engine_Libraries_DisabledLibrariesAbstractPath" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</Value>
+    </Setting>
+    <Setting Name="CaseLibrary_TreeView_LastBrowsedFullPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CaseLibrary_ApplicationButton_IsShowText" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="UI_DefaultFont" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Tahoma, 8.25pt</Value>
+    </Setting>
+    <Setting Name="TDP_SequenceLibrary_InfoWindowHeigh" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">320</Value>
+    </Setting>
+    <Setting Name="TDP_SequenceEditor_InfoWindowHeigh" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_Libraries_DisabledLibrariesAbstractPath" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</Value>
+    </Setting>
+    <Setting Name="TDP_CaseLibrary_InfoWindowHeigh" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_DisabledLogViewTypeFullName" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</Value>
+    </Setting>
+    <Setting Name="TDP_UI_Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TDP_UI_LogView_MainLogViewEngineLogLogView_AutoSctroll" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_UI_DefaultFont" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Tahoma, 8.25pt</Value>
+    </Setting>
+    <Setting Name="TDP_TestResultFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\AutoTest\Results</Value>
+    </Setting>
+    <Setting Name="TDP_SequenceExecutor_HeaderWidth" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TDP_MainLogView_GraphFormSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">360, 360</Value>
+    </Setting>
+    <Setting Name="TDP_MainLogView_SequenceInfoAreaHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="TDP_MainLogView_SequenceInfoDisplayStyle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Name</Value>
+    </Setting>
+    <Setting Name="TDP_MainLogView_SequenceInfoTextFont" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Tahoma, 14.25pt, style=Bold</Value>
+    </Setting>
+    <Setting Name="TDP_MainLogView_ShowSequenceInfo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_MainLogView_TableFormSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">580, 280</Value>
+    </Setting>
+    <Setting Name="TDP_MainLogView_TreeFormSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">320, 600</Value>
+    </Setting>
+    <Setting Name="TDP_RawDataLogView_ReportFileNamePattern" Type="System.String" Scope="User">
+      <Value Profile="(Default)">%d %t %s %e %p</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_LogEngineStatus" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_LogInfo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_LogInfo_Error" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_LogInfo_Log" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_LogInfo_Normal" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_LogInfo_Notify" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_LogInfo_Warning" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_LogResult" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_LogResult_Normal" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_LogResult_Temp" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_LogUserDefinedData_General" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_Engine_MainLogView_PromptForFailResult" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TDP_EngineLogLogView_TitleWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TDP_EngineStatusLogView_InfoWindowHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">240</Value>
+    </Setting>
+    <Setting Name="TDP_EngineStatusLogView_PassFailHistoryTitleWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TDP_EngineStatusLogView_PassFailHistoryWindowHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">260</Value>
+    </Setting>
+    <Setting Name="TDP_SequenceExecutor_LastExecutedSequence" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TDP_Engine_DeleteRawReportFile" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TDP_MainLogView_ListViewResultAreaHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">550</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

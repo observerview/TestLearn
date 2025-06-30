@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TSDP_TS>
+  <Name>test1</Name>
+  <Author>s</Author>
+  <CreatedTime>2025-02-24 20:14:38</CreatedTime>
+  <ModifiedTime>2025-02-25 13:17:48</ModifiedTime>
+  <Description>ss</Description>
+  <GlobeEngineMode executedTimes="1">
+    <ErrorMode mode="Abort" retry="0" />
+    <FailMode mode="IgnoreFail" retry="0" />
+  </GlobeEngineMode>
+  <CaseSequence>
+    <Case dllName="common\xwx.TDP.Library.Common.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.Common.Cases.InstrumentsInit">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters />
+      <ContainedCases />
+    </Case>
+    <Case dllName="common\xwx.TDP.Library.Common.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.Common.Cases.PowerOn">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="PathNumber">0</Parameter>
+        <Parameter name="PsuVoltage">18</Parameter>
+        <Parameter name="PsuCurrentLimit">1.5</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">10</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="common\xwx.TDP.Library.Common.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.Common.Cases.PowerOff">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="PathNumber">0</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">上电测试</Parameter>
+      </Parameters>
+      <ContainedCases>
+        <Case dllName="common\xwx.TDP.Library.Common.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.Common.Cases.PowerOn">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="PathNumber">0</Parameter>
+            <Parameter name="PsuVoltage">18</Parameter>
+            <Parameter name="PsuCurrentLimit">1.5</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="common\xwx.TDP.Library.Common.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.Common.Cases.PowerResetAndReadCurrent">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits>
+            <Limit name="PsuCurrent">[0,15] | System.Double</Limit>
+          </Limits>
+          <Parameters>
+            <Parameter name="PathNumber">0</Parameter>
+            <Parameter name="PsuVoltage">18</Parameter>
+            <Parameter name="PsuCurrentLimit">1.5</Parameter>
+            <Parameter name="DelayTimeBeforePowerOn">3</Parameter>
+            <Parameter name="DelayTimeAfterPowerOn">3</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="common\xwx.TDP.Library.Common.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.Common.Cases.PowerOff">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="PathNumber">0</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.MessageBox">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="DisplayText">Message text to display.</Parameter>
+            <Parameter name="Icon">Asterisk</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+      </ContainedCases>
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">上电测试</Parameter>
+      </Parameters>
+      <ContainedCases>
+        <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.MessageBox">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="DisplayText">Message text to display.</Parameter>
+            <Parameter name="Icon">Asterisk</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+      </ContainedCases>
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">上电测试</Parameter>
+      </Parameters>
+      <ContainedCases>
+        <Case dllName="common\xwx.TDP.Library.Common.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.Common.Cases.PowerOn">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="PathNumber">0</Parameter>
+            <Parameter name="PsuVoltage">18</Parameter>
+            <Parameter name="PsuCurrentLimit">1.5</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="common\xwx.TDP.Library.Common.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.Common.Cases.PowerResetAndReadCurrent">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits>
+            <Limit name="PsuCurrent">[0,15] | System.Double</Limit>
+          </Limits>
+          <Parameters>
+            <Parameter name="PathNumber">0</Parameter>
+            <Parameter name="PsuVoltage">18</Parameter>
+            <Parameter name="PsuCurrentLimit">1.5</Parameter>
+            <Parameter name="DelayTimeBeforePowerOn">3</Parameter>
+            <Parameter name="DelayTimeAfterPowerOn">3</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="common\xwx.TDP.Library.Common.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.Common.Cases.PowerOff">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="PathNumber">0</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.MessageBox">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="DisplayText">Message text to display.</Parameter>
+            <Parameter name="Icon">Asterisk</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+      </ContainedCases>
+    </Case>
+  </CaseSequence>
+</TSDP_TS>

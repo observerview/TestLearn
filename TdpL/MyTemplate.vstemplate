@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>TDP Test Library Template</Name>
+    <Description>用于创建TDP测试类库的模板</Description>
+    <ProjectType>CSharp</ProjectType>
+    <TemplateID>YourCompany.TDP.TestLibrary</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>TDP.Library.TestCase</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Logger\INLogger.cs">INLogger.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">AppHooker.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">CaseFolder.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">WaitTime.cs</ProjectItem>
+      <!-- 添加其他项目文件 -->
+    </Project>
+  </TemplateContent>
+</VSTemplate> 

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TSDP_TS>
+  <Name>ais2</Name>
+  <Author>2</Author>
+  <CreatedTime>2024-11-14 20:14:43</CreatedTime>
+  <ModifiedTime>0001-01-01 00:00:00</ModifiedTime>
+  <Description>2</Description>
+  <GlobeEngineMode executedTimes="1">
+    <ErrorMode mode="Abort" retry="0" />
+    <FailMode mode="IgnoreFail" retry="0" />
+  </GlobeEngineMode>
+  <CaseSequence />
+</TSDP_TS>

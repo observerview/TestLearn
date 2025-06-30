@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TSDP_TS>
+  <Name>AIS_FUC_TEST</Name>
+  <Author>S</Author>
+  <CreatedTime>2024-12-26 20:49:28</CreatedTime>
+  <ModifiedTime>2024-12-26 20:49:38</ModifiedTime>
+  <Description>S</Description>
+  <GlobeEngineMode executedTimes="1">
+    <ErrorMode mode="Abort" retry="0" />
+    <FailMode mode="IgnoreFail" retry="0" />
+  </GlobeEngineMode>
+  <CaseSequence>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryValue">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="LimitExample">[0,10000] | System.Double</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="RcCmdNo">91</Parameter>
+        <Parameter name="RcCmdName">AIS1接收包计数</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+  </CaseSequence>
+</TSDP_TS>

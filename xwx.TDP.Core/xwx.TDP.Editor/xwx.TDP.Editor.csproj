@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DCA719B6-45CF-4D71-936D-167676C696F2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>xwx.TDP.Editor</RootNamespace>
+    <AssemblyName>TDP</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\..\..\AutoTest\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.5.3.4\lib\net46\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Text.Json, Version=8.0.0.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <HintPath>..\packages\PomeGranate.WinFormsUI.3.1.0\lib\net48\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking.ThemeVS2015, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <HintPath>..\packages\PomeGranate.WinFormsUI.ThemeVS2015.3.1.0\lib\net48\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CaseLibrary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaseLibrary.Designer.cs">
+      <DependentUpon>CaseLibrary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CaseLibraryRootNodeInfo.cs" />
+    <Compile Include="CustomControls\CustomBoardLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\CustomBoardLabel.Designer.cs">
+      <DependentUpon>CustomBoardLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultFolderInfo.cs" />
+    <Compile Include="Engine\EngineMode.cs" />
+    <Compile Include="Engine\EngineMode_Error.cs" />
+    <Compile Include="Engine\EngineMode_OK.cs" />
+    <Compile Include="Engine\EngineType.cs" />
+    <Compile Include="Engine\ExecutionStatus.cs" />
+    <Compile Include="Engine\RunTimeVarPool.cs" />
+    <Compile Include="Engine\TdpEngine.cs" />
+    <Compile Include="Engine\TdpLogViews.cs" />
+    <Compile Include="Engine\TdpTestCase.cs" />
+    <Compile Include="Engine\TdpTestSequence.cs" />
+    <Compile Include="Engine\TdpTestSequenceInfo.cs" />
+    <Compile Include="Engine\TestCase.cs" />
+    <Compile Include="Engine\TestCaseInfo.cs" />
+    <Compile Include="LogViews\CsvResultView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogViews\EngineLogLogView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogViews\EngineLogLogView.Designer.cs">
+      <DependentUpon>EngineLogLogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogViews\IInternalLogView.cs" />
+    <Compile Include="LogViews\LogViewWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogViews\LogViewWindow.Designer.cs">
+      <DependentUpon>LogViewWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogViews\MainLogView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogViews\MainLogView.Designer.cs">
+      <DependentUpon>MainLogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogViews\TxtLogView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogViews\TxtResultView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\ITdpModuleAuthorizationAdmin.cs" />
+    <Compile Include="Misc\SplashWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Misc\SplashWindow.Designer.cs">
+      <DependentUpon>SplashWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\TdpEdition.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SequenceEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SequenceEditor.Designer.cs">
+      <DependentUpon>SequenceEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SequenceInfoChangedEventArgs.cs" />
+    <Compile Include="SequenceInfoChangedEventHandler.cs" />
+    <Compile Include="SequenceInfoChangingEventArgs.cs" />
+    <Compile Include="SequenceInfoChangingEventHandler.cs" />
+    <Compile Include="SequenceInfoEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SequenceInfoEditor.Designer.cs">
+      <DependentUpon>SequenceInfoEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SequenceSelectedToEditEventArgs.cs" />
+    <Compile Include="SequenceSelectedToEditEventHandler.cs" />
+    <Compile Include="SequenceSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SequenceSelector.Designer.cs">
+      <DependentUpon>SequenceSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TdplCaseInfo.cs" />
+    <EmbeddedResource Include="CaseLibrary.resx">
+      <DependentUpon>CaseLibrary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\CustomBoardLabel.resx">
+      <DependentUpon>CustomBoardLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogViews\LogViewWindow.resx">
+      <DependentUpon>LogViewWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogViews\MainLogView.resx">
+      <DependentUpon>MainLogView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misc\SplashWindow.resx">
+      <DependentUpon>SplashWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SequenceEditor.resx">
+      <DependentUpon>SequenceEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SequenceInfoEditor.resx">
+      <DependentUpon>SequenceInfoEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SequenceSelector.resx">
+      <DependentUpon>SequenceSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestManager.Extern\TestManager.Extern.csproj">
+      <Project>{502a9c61-8c84-4edb-ad5a-3b06f1b3a273}</Project>
+      <Name>TestManager.Extern</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\TestManager.Utility\TestManager.Utility.csproj">
+      <Project>{3b18d863-a14f-42e7-a160-72cb0d5a44e5}</Project>
+      <Name>TestManager.Utility</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\xwx.TDP.Library.Testcase\xwx.TDP.Library.BaseCase.csproj">
+      <Project>{a0fc5b5e-f71f-461a-9cd8-a0dc2b1d3f36}</Project>
+      <Name>xwx.TDP.Library.BaseCase</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\xwx.TDP.Library\xwx.TDP.Library.csproj">
+      <Project>{343ef0da-1cd5-44d0-a8bb-065a2f4bfa11}</Project>
+      <Name>xwx.TDP.Library</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderOpened.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newFolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limits.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parameter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\discard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showbelow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderClosed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sequence.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="TDP_64x64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

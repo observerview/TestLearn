@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LNG_TDP_SequenceEditor_SavePromptMessage" xml:space="preserve">
+    <value>Sequence has been modified, do you wan to save the changes?</value>
+  </data>
+  <data name="LNG_TDP_SequenceEditor_NoSequenceLoaded" xml:space="preserve">
+    <value>No Sequence Loaded</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_SequenceInfo" xml:space="preserve">
+    <value>File:/t/t{0}
+Name:/t/t{1}
+----------------------------------------------------------------
+
+Author:/t/t{2}
+Created:/t/t{3}
+Modified:/t/t{4}
+
+Exection Mode
+Error:/t/t{5}({6})
+OK:/t/t{7}({8})
+
+Description:
+{9}</value>
+  </data>
+  <data name="LNG_TDP_Engine_Resume" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="LNG_TDP_Engine_ExecutionStatus_Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="LNG_TDP_Engine_ExecutionStatus_Passed" xml:space="preserve">
+    <value>Passed</value>
+  </data>
+  <data name="LNG_TDP_Engine_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_CreateSequenceFailed" xml:space="preserve">
+    <value>Error occured while creating test sequence.</value>
+  </data>
+  <data name="LNG_TDP_Engine_ExecutionStatus_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_SequenceInfo_MenuItem" xml:space="preserve">
+    <value>File:/t/t{0}
+Name:/t/t{1}
+----------------------------------------------------------------
+
+Author:/t/t{2}
+Created:/t{3}
+Modified:/t{4}
+
+Exection Mode
+Error:/t/t{5}({6})
+OK:/t/t{7}({8})
+
+Description:
+{9}</value>
+  </data>
+  <data name="LNG_TDP_Engine_TdpTestSequence_LoadSequenceFailed" xml:space="preserve">
+    <value>Load test sequence failed.</value>
+  </data>
+  <data name="edit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_CreatedFolderName" xml:space="preserve">
+    <value>The name of the folder to be created:</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_SequenceCanNotDeleteWhileRunning" xml:space="preserve">
+    <value>The sequence is now running, you can not delete it.</value>
+  </data>
+  <data name="start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_Engine_EngineMode" xml:space="preserve">
+    <value>EngineMode</value>
+  </data>
+  <data name="LNG_TDP_Engine_TestCase_SetCaseParametersError" xml:space="preserve">
+    <value>Set case parameters error.</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_ModifySequenceFailed" xml:space="preserve">
+    <value>Error occured while modifing test sequence.</value>
+  </data>
+  <data name="LNG_TDP_SequenceEditor_VersionNotMatchedWarning1" xml:space="preserve">
+    <value>In sequence "{0}", one or more case's parameter(s) or limit(s) has been removed.
+Please double-check the changes, and re-save the sequence.
+
+Click "OK" to continue editing the sequence.</value>
+  </data>
+  <data name="LNG_TDP_Engine_TestCase_CreateCaseInstanceFailed" xml:space="preserve">
+    <value>Create case instance failed:</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_DeleteFolderConfirm" xml:space="preserve">
+    <value>Are you sure to delete all the test sequences in the following folder?</value>
+  </data>
+  <data name="LNG_TDP_Engine_ExecutionStatus_Skipped" xml:space="preserve">
+    <value>Skipped</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_DeleteSequenceConfirm" xml:space="preserve">
+    <value>Are you sure to delete the following test sequence?</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_DeleteFolderFailed" xml:space="preserve">
+    <value>Delete folder failed:</value>
+  </data>
+  <data name="pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_Common_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FolderOpened" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FolderOpened.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_Engine_TdpTestSequence_SaveSequenceFailed" xml:space="preserve">
+    <value>Save TDP test sequence failed.</value>
+  </data>
+  <data name="LNG_TDP_Engine_TestCase_GetLimitsError" xml:space="preserve">
+    <value>Get case limits error.</value>
+  </data>
+  <data name="LNG_TDP_Engine_TestCase_GetParametersError" xml:space="preserve">
+    <value>Get case parameters error.</value>
+  </data>
+  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_SequenceEditor_DiscardWarning" xml:space="preserve">
+    <value>Are you sure to discard the changes to the sequence?</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_SequenceExistedWarning" xml:space="preserve">
+    <value>Test sequence has existed, please choose another name.</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_RenamedFolderName" xml:space="preserve">
+    <value>The new name of the folder:</value>
+  </data>
+  <data name="modify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_Engine_ExecutionStatus_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="limits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\limits.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_Engine_TestCase_TdplNotFound" xml:space="preserve">
+    <value>TDP library file not found:</value>
+  </data>
+  <data name="LNG_TDP_Engine_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_CreateFolderFailed" xml:space="preserve">
+    <value>Create folder failed:</value>
+  </data>
+  <data name="LNG_TDP_SequenceEditor_DefaultValue" xml:space="preserve">
+    <value>Default Value</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parameter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parameter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="discard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\discard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_Engine_ExecutionStatus_Executed" xml:space="preserve">
+    <value>Executed</value>
+  </data>
+  <data name="LNG_TDP_SequenceEditor_InsertSequenceFailed" xml:space="preserve">
+    <value>Insert sequence failed.</value>
+  </data>
+  <data name="LNG_TDP_Engine_MainLogView_PromptForFailTestMessage" xml:space="preserve">
+    <value>There is a failed test result ouput.
+
+Click "OK" to continue testing.</value>
+  </data>
+  <data name="newFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newFolder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_FolderCanNotBeDeletedWhileSequenceInEdit" xml:space="preserve">
+    <value>The folder can not be renamed now, because the following test sequence is in edit:</value>
+  </data>
+  <data name="LNG_TDP_SequenceEditor_VersionNotMatchedWarning2" xml:space="preserve">
+    <value>In sequence "{0}", one or more case's parameter(s) or limit(s) has been removed.
+You should double-check the changes before you save the sequence "{1}".
+
+Click "OK" to continue the operation.</value>
+  </data>
+  <data name="LNG_TDP_Engine_TestCase_VersionNotCompitiableWarning" xml:space="preserve">
+    <value>The current TDP L version({0}) not compitible with the test case({1}).
+TSPL: {2}
+Case: {3}
+
+To ensure the conformance, you must re-create the sequence and configurate the parameters / limits.</value>
+  </data>
+  <data name="LNG_TDP_SequenceEditor_SaveSuccessfully" xml:space="preserve">
+    <value>Sequence saved successfully.</value>
+  </data>
+  <data name="newfile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newfile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_SequenceSelector_RenamedFolderFailed" xml:space="preserve">
+    <value>Rename folder failed:</value>
+  </data>
+  <data name="LNG_TDP_SequenceEditor_SaveFailed" xml:space="preserve">
+    <value>Save sequence failed.</value>
+  </data>
+  <data name="LNG_TDP_SequenceEditor_DeleteWarning" xml:space="preserve">
+    <value>Are you sure to delete the selected cases?</value>
+  </data>
+  <data name="LNG_TDP_SequenceEditor_ValueRange" xml:space="preserve">
+    <value>Value Range</value>
+  </data>
+  <data name="LNG_TDP_Engine_TestCase_SetCaseLimitsError" xml:space="preserve">
+    <value>Set case limits error.</value>
+  </data>
+  <data name="LNG_TDP_Common_CorruptedDataFile" xml:space="preserve">
+    <value>Corrupted data file</value>
+  </data>
+  <data name="LNG_TDP_Engine_Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="showbelow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\showbelow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_MainLogView_ResultFolderNotifier" xml:space="preserve">
+    <value>Please select the test result folder.</value>
+  </data>
+  <data name="stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LNG_TDP_MainLogView_LoadSequenceFailed" xml:space="preserve">
+    <value>Load sequence failed</value>
+  </data>
+  <data name="LNG_TDP_MainLogView_SelectSequence" xml:space="preserve">
+    <value>Select Sequence</value>
+  </data>
+  <data name="LNG_TDP_MainLogView_SequenceParameterLimitChangedWarning" xml:space="preserve">
+    <value>There are warnings while loading sequence.
+The reason is that some case's parameter(s) or limit(s) has been removed.
+
+Before running this sequence, you should go to sequence editor to double-check the changes and re-save it.</value>
+  </data>
+  <data name="LNG_TDP_MainLogView_StopConfirm" xml:space="preserve">
+    <value>Are you sure to stop the test?</value>
+  </data>
+  <data name="LNG_TDP_MainLogView_Title" xml:space="preserve">
+    <value>Sequence Executor</value>
+  </data>
+  <data name="resume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FolderClosed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FolderClosed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sequence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sequence.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Graph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TDP_MainForm_text" xml:space="preserve">
+    <value>Test Develop Platform  V0.009</value>
+  </data>
+</root>

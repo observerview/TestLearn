@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<STATION_CONFIG>
+   <HEADER>
+      <TESTER_ID>Default_PC_NAME</TESTER_ID>
+      <TESTER_TYPE>Default_TYPE</TESTER_TYPE>
+      <STS_PATH>C:\sharpts</STS_PATH>
+      <STS_STEPS_PATH>C:\sharpts\Plugin</STS_STEPS_PATH>
+   </HEADER>
+   <PLATFORM TYPE="SharpTS">
+      <ASSEMBLIES>
+         <STD_PLATF>
+            <!-- Name of the assembly to be loaded. -->
+            <ASSEMBLY_NAME>SharpTS.DemoTest</ASSEMBLY_NAME>
+         </STD_PLATF>
+         <STD_PLATF>
+            <!-- Name of the assembly to be loaded. -->
+            <ASSEMBLY_NAME>SharpTS.SharedTests</ASSEMBLY_NAME>
+         </STD_PLATF>
+      </ASSEMBLIES>
+      <DRIVERS>
+         <DRIVER ENABLED="True" TYPE="SA_NI" NAME="DEFAULT" DRIVER_ASSEMBLY="SharpTS.Sa" INTERFACE_ASSEMBLY="SharpTS.SaInterface">
+            <INSTRUMENT_ADDR>NiSaSg</INSTRUMENT_ADDR>
+            <DEVICE NAME="ANRITSU">
+               <PARAMETER NAME="ALIGNMENT_INTERVAL_SEC" VALUE="86400"/>
+               <PARAMETER NAME="VISA_TIMEOUT_MS" VALUE="10000"/>
+               <PARAMETER NAME="DISPLAY_STATE" VALUE="OFF"/>
+            </DEVICE>
+            <DEVICE NAME="KEYSIGHT">
+               <PARAMETER NAME="ALIGNMENT_INTERVAL_SEC" VALUE="86400"/>
+               <PARAMETER NAME="VISA_TIMEOUT_MS" VALUE="10000"/>
+               <PARAMETER NAME="DISPLAY_STATE" VALUE="OFF"/>
+            </DEVICE>
+            <DEVICE NAME="ROHDE">
+               <PARAMETER NAME="ALIGNMENT_INTERVAL_SEC" VALUE="86400"/>
+               <PARAMETER NAME="VISA_TIMEOUT_MS" VALUE="10000"/>
+               <PARAMETER NAME="DISPLAY_STATE" VALUE="ON"/>
+            </DEVICE>
+            <MEAS_SETUPS>
+               <MEAS_SETUP NAME="ACLR">
+                  <DEVICES>
+                     <DEVICE NAME="ANRITSU">
+                        <PARAMETER NAME="MIXER_LEVEL" VALUE="13.7"/>
+                     </DEVICE>
+                     <DEVICE NAME="KEYSIGHT">
+                        <PARAMETER NAME="MIXER_LEVEL" VALUE="16.2"/>
+                     </DEVICE>
+                     <DEVICE NAME="ROHDE">
+                        <PARAMETER NAME="MIXER_LEVEL" VALUE="18.2"/>
+                     </DEVICE>
+                  </DEVICES>
+               </MEAS_SETUP>
+            </MEAS_SETUPS>
+         </DRIVER>
+         <DRIVER ENABLED="True" TYPE="NI_NA" NAME="DEFAULT" DRIVER_ASSEMBLY="SharpTS.Na" INTERFACE_ASSEMBLY="SharpTS.NaInterface">
+            <INSTRUMENT_ADDR>NI_NA</INSTRUMENT_ADDR>
+            <DEVICE NAME="ANRITSU">
+               <PARAMETER NAME="ALIGNMENT_INTERVAL_SEC" VALUE="86400"/>
+               <PARAMETER NAME="VISA_TIMEOUT_MS" VALUE="10000"/>
+               <PARAMETER NAME="DISPLAY_STATE" VALUE="ON"/>
+            </DEVICE>
+            <DEVICE NAME="KEYSIGHT">
+               <PARAMETER NAME="ALIGNMENT_INTERVAL_SEC" VALUE="86400"/>
+               <PARAMETER NAME="VISA_TIMEOUT_MS" VALUE="100000"/>
+               <PARAMETER NAME="DISPLAY_STATE" VALUE="ON"/>
+            </DEVICE>
+            <DEVICE NAME="ROHDE">
+               <PARAMETER NAME="ALIGNMENT_INTERVAL_SEC" VALUE="86400"/>
+               <PARAMETER NAME="VISA_TIMEOUT_MS" VALUE="10000"/>
+               <PARAMETER NAME="DISPLAY_STATE" VALUE="ON"/>
+            </DEVICE>
+            <MEAS_SETUPS>
+               <MEAS_SETUP NAME="ACLR">
+                  <DEVICES>
+                     <DEVICE NAME="ANRITSU">
+                        <PARAMETER NAME="MIXER_LEVEL" VALUE="13.7"/>
+                        <PARAMETER NAME="VISA_TIMEOUT_MS" VALUE="2000"/>
+                     </DEVICE>
+                     <DEVICE NAME="KEYSIGHT">
+                        <PARAMETER NAME="MIXER_LEVEL" VALUE="16.2"/>
+                        <PARAMETER NAME="VISA_TIMEOUT_MS" VALUE="20000"/>
+                     </DEVICE>
+                     <DEVICE NAME="ROHDE">
+                        <PARAMETER NAME="MIXER_LEVEL" VALUE="18.2"/>
+                        <PARAMETER NAME="VISA_TIMEOUT_MS" VALUE="2000"/>
+                     </DEVICE>
+                  </DEVICES>
+               </MEAS_SETUP>
+            </MEAS_SETUPS>
+         </DRIVER>
+         <DRIVER ENABLED="True" TYPE="PSU" NAME="DEFAULT" DRIVER_ASSEMBLY="SharpTS.Psu" INTERFACE_ASSEMBLY="SharpTS.PsuInterface">
+            <INSTRUMENT_ADDR>TCPIP0::192.168.252.21::INSTR</INSTRUMENT_ADDR>
+         </DRIVER>
+        <!--FOR 6700 channel 1-4 : TYPE="PSU6700M1" TYPE="PSU6700M2" TYPE="PSU6700M3" TYPE="PSU6700M4"-->
+		   <DRIVER ENABLED="True" TYPE="PSU6700M3" NAME="6700C" DRIVER_ASSEMBLY="SharpTS.Psu" INTERFACE_ASSEMBLY="SharpTS.PsuInterface">
+            <INSTRUMENT_ADDR>TCPIP0::192.168.252.22::INSTR</INSTRUMENT_ADDR>
+         </DRIVER>
+		   <DRIVER ENABLED="True" TYPE="DUMMY" NAME="PSU2" DRIVER_ASSEMBLY="SharpTS.Psu" INTERFACE_ASSEMBLY="SharpTS.PsuInterface">
+            <INSTRUMENT_ADDR>TCPIP0::192.168.252.23::INSTR</INSTRUMENT_ADDR>
+         </DRIVER>
+         <DRIVER ENABLED="True" TYPE="PSU" NAME="PSU3" DRIVER_ASSEMBLY="SharpTS.Psu" INTERFACE_ASSEMBLY="SharpTS.PsuInterface">
+            <INSTRUMENT_ADDR>TCPIP0::192.168.252.23::INSTR</INSTRUMENT_ADDR>
+         </DRIVER>
+		   <DRIVER ENABLED="True" TYPE="SG" NAME="DEFAULT" DRIVER_ASSEMBLY="SharpTS.Sg" INTERFACE_ASSEMBLY="SharpTS.SgInterface" INITIALIZE_ON_STARTUP="True">
+            <INSTRUMENT_ADDR>NiSaSg</INSTRUMENT_ADDR>
+         </DRIVER>
+		   <DRIVER ENABLED="True" TYPE="DMM" NAME="DEFAULT" DRIVER_ASSEMBLY="SharpTS.Dmm" INTERFACE_ASSEMBLY="SharpTS.DmmInterface" INITIALIZE_ON_STARTUP="True">
+			   <INSTRUMENT_ADDR>DMM</INSTRUMENT_ADDR>
+		   </DRIVER>
+        <!--for led test-->
+         <DRIVER ENABLED="True" TYPE="FEASA" NAME="FEASA" DRIVER_ASSEMBLY="SharpTS.Led" INTERFACE_ASSEMBLY="SharpTS.LedInterface">
+            <DEVICE NAME="FEASA">
+              <PARAMETER NAME="COM_PORT" VALUE="21"/>
+              <PARAMETER NAME="BAUD_RATE" VALUE="57600"/>
+              <PARAMETER NAME="DATA_BIT" VALUE="8"/>
+              <PARAMETER NAME="PARITY" VALUE="0"/>
+              <PARAMETER NAME="STOP_BIT" VALUE="1"/>
+              <PARAMETER NAME="FLOW_CONTROL" VALUE="None"/>
+              <PARAMETER NAME="TIMEOUT_MS" VALUE="5000"/>
+            </DEVICE>
+         </DRIVER>
+         <!--DRIVER ENABLED="True" TYPE="ELOAD" NAME="DEFAULT" DRIVER_ASSEMBLY="SharpTS.Eload" INTERFACE_ASSEMBLY="SharpTS.EloadInterface" INITIALIZE_ON_STARTUP="True">
+            <INSTRUMENT_ADDR>GPIB0::5::INSTR</INSTRUMENT_ADDR>
+         </DRIVER-->
+         <!--DRIVER ENABLED="True" TYPE="ESL" NAME="ELOAD2" DRIVER_ASSEMBLY="SharpTS.Eload" INTERFACE_ASSEMBLY="SharpTS.EloadInterface" INITIALIZE_ON_STARTUP="True">
+            <INSTRUMENT_ADDR>ESL</INSTRUMENT_ADDR>
+         </DRIVER-->
+         <DRIVER ENABLED="True" TYPE="PM" NAME="DEFAULT" DRIVER_ASSEMBLY="SharpTS.Pm" INTERFACE_ASSEMBLY="SharpTS.PmInterface">
+            <INSTRUMENT_ADDR>PM</INSTRUMENT_ADDR>
+         </DRIVER>
+         <DRIVER ENABLED="True" NAME="DEFAULT" DRIVER_ASSEMBLY="SharpTS.RouteLoss" INTERFACE_ASSEMBLY="SharpTS.RouteLossInterface">
+            <CALIBRATION_FILE>C:\Swift\Cal\MFT_CalibrationFile.xml</CALIBRATION_FILE>
+         </DRIVER>
+		   <DRIVER ENABLED="True" NAME="DEMO" DRIVER_ASSEMBLY="SharpTS.RouteLoss" INTERFACE_ASSEMBLY="SharpTS.RouteLossInterface">
+            <CALIBRATION_FILE>C:\Swift\Cal\MFT_CalibrationFile_AWHKB_DEMO.xml</CALIBRATION_FILE>
+         </DRIVER>
+         <DRIVER ENABLED="True" TYPE="NI2570" NAME="DEFAULT" DRIVER_ASSEMBLY="SharpTS.Ssu" INTERFACE_ASSEMBLY="SharpTS.SsuInterface" INITIALIZE_ON_STARTUP="True">
+            <!-- TYPE = DUMMY | NIDAQ | | MANUAL (| RASPBERRY) | NI2570
+				If no location is defined the switch plan has to be in same location as this StationConfig.xml file -->
+            <SWITCH_PLAN>MFT_Default_SwitchPlan.xml</SWITCH_PLAN>
+         </DRIVER>
+		   <DRIVER ENABLED="True" TYPE="NIDAQ" NAME="6501" DRIVER_ASSEMBLY="SharpTS.Ssu" INTERFACE_ASSEMBLY="SharpTS.SsuInterface" INITIALIZE_ON_STARTUP="True">
+            <!-- TYPE = DUMMY | NIDAQ | | MANUAL (| RASPBERRY)
+				If no location is defined the switch plan has to be in same location as this StationConfig.xml file -->
+            <SWITCH_PLAN>MFT_6501_SwitchPlan.xml</SWITCH_PLAN>
+         </DRIVER>
+         <DRIVER ENABLED="True" TYPE="SCANWORKS" NAME="DEFAULT" DRIVER_ASSEMBLY="SharpTS.Bscan" INTERFACE_ASSEMBLY="SharpTS.BscanInterface" INITIALIZE_ON_STARTUP="True">
+            <!--sTYPE = DUMMY | CASCON |SCANWORKS-->
+            <SHOW_PROGRESS_BAR>False</SHOW_PROGRESS_BAR>
+            <SHOW_SHOW_CASCON_UI>False</SHOW_SHOW_CASCON_UI>
+         </DRIVER>
+         <DRIVER ENABLED="True" TYPE="FRMON" NAME="DEFAULT" DRIVER_ASSEMBLY="SharpTS.DutControl" INTERFACE_ASSEMBLY="SharpTS.DutControlInterface">
+            <IP_ADDRESS>192.168.101.1</IP_ADDRESS>
+            <USER_NAME>root</USER_NAME>
+            <PASSWORD/>
+            <CARRIER_CONFIG_FILE>C:\Swift\Data\AHED_CarrierConfig.xml</CARRIER_CONFIG_FILE>
+            <PORT>2000</PORT>
+            <PLATFORM>RF5.1</PLATFORM>
+         </DRIVER>
+      </DRIVERS>
+   </PLATFORM>
+</STATION_CONFIG>

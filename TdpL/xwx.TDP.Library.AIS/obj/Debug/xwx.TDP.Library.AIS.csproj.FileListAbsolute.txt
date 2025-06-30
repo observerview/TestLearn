@@ -1,0 +1,8 @@
+C:\AutoTest\Applications\AIS\xwx.TDP.Library.AIS.dll
+C:\AutoTest\Applications\AIS\xwx.TDP.Library.AIS.pdb
+C:\AutoTest\Source\TdpL\xwx.TDP.Library.AIS\obj\Debug\xwx.TDP.Library.AIS.csproj.AssemblyReference.cache
+C:\AutoTest\Source\TdpL\xwx.TDP.Library.AIS\obj\Debug\xwx.TDP.Library.AIS.Properties.Resources.resources
+C:\AutoTest\Source\TdpL\xwx.TDP.Library.AIS\obj\Debug\xwx.TDP.Library.AIS.csproj.GenerateResource.cache
+C:\AutoTest\Source\TdpL\xwx.TDP.Library.AIS\obj\Debug\xwx.TDP.Library.AIS.csproj.CoreCompileInputs.cache
+C:\AutoTest\Source\TdpL\xwx.TDP.Library.AIS\obj\Debug\xwx.TDP.Library.AIS.dll
+C:\AutoTest\Source\TdpL\xwx.TDP.Library.AIS\obj\Debug\xwx.TDP.Library.AIS.pdb

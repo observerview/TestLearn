@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TSDP_TS>
+  <Name>FPGA操作</Name>
+  <Author>suxing</Author>
+  <CreatedTime>2025-02-26 17:19:16</CreatedTime>
+  <ModifiedTime>2025-02-26 19:31:43</ModifiedTime>
+  <Description>通过tcl指令操作FPGA</Description>
+  <GlobeEngineMode executedTimes="1">
+    <ErrorMode mode="Abort" retry="0" />
+    <FailMode mode="IgnoreFail" retry="0" />
+  </GlobeEngineMode>
+  <CaseSequence>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">写fpga</Parameter>
+      </Parameters>
+      <ContainedCases>
+        <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.RunTCLScript">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="VivadoPath">C:\Xilinx\Vivado\2018.3\bin\vivado.bat</Parameter>
+            <Parameter name="TclScriptFilePath">C:\AutoTest\Data\DTC\FPGA\demo_script.tcl</Parameter>
+            <Parameter name="CmdTimeSpan">50</Parameter>
+            <Parameter name="DisplayName">执行tcl脚本demo</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+      </ContainedCases>
+    </Case>
+  </CaseSequence>
+</TSDP_TS>

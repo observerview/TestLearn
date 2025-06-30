@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xwx.TDP.Library.Common", "xwx.TDP.Library.Testcase\xwx.TDP.Library.Common.csproj", "{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xwx.TDP.Common", "xwx.TDP.Common", "{1583D723-37BC-416A-A24F-14169A910337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WirelessCommon", "WirelessCommon\WirelessCommon.csproj", "{F311B68A-E816-4982-BCA0-A0A4B8CF7012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xwx.TDP.Common.Instruments", "xwx.TDP.Common.Instruments\xwx.TDP.Common.Instruments.csproj", "{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xwx.TDP.Library.AIS", "xwx.TDP.Library.AIS\xwx.TDP.Library.AIS.csproj", "{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xwx.TDP.Library.DTC", "xwx.TDP.Library.DTC\xwx.TDP.Library.DTC.csproj", "{9471C90B-2665-49C6-9502-99E2E897DBB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FC5B5E-F71F-461A-9CD8-A0DC2B1D3F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F311B68A-E816-4982-BCA0-A0A4B8CF7012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F311B68A-E816-4982-BCA0-A0A4B8CF7012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F311B68A-E816-4982-BCA0-A0A4B8CF7012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F311B68A-E816-4982-BCA0-A0A4B8CF7012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023ACEDC-7E3C-40CD-A1C1-C8130DC9BA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9471C90B-2665-49C6-9502-99E2E897DBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9471C90B-2665-49C6-9502-99E2E897DBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9471C90B-2665-49C6-9502-99E2E897DBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9471C90B-2665-49C6-9502-99E2E897DBB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F311B68A-E816-4982-BCA0-A0A4B8CF7012} = {1583D723-37BC-416A-A24F-14169A910337}
+		{AECA58EA-6D3D-4CF9-9788-6DD17E9F4C26} = {1583D723-37BC-416A-A24F-14169A910337}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16E58F65-E706-4E9B-89E8-8414F95EDDAC}
+	EndGlobalSection
+EndGlobal

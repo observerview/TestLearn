@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TSDP_TS>
+  <Name>DTC子板回环测试_单通道</Name>
+  <Author>suxing</Author>
+  <CreatedTime>2025-02-25 13:43:40</CreatedTime>
+  <ModifiedTime>2025-02-28 14:28:19</ModifiedTime>
+  <Description>DTC子板回环测试_单通道测试序列。先定义调试单通道是为了方便后续多通道组合成完整测试序列。</Description>
+  <GlobeEngineMode executedTimes="1">
+    <ErrorMode mode="Abort" retry="0" />
+    <FailMode mode="IgnoreFail" retry="0" />
+  </GlobeEngineMode>
+  <CaseSequence>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">下载FPGA程序</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">配置-地检</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">TX通道s参数测试</Parameter>
+      </Parameters>
+      <ContainedCases>
+        <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="DisplayName">NI指令</Parameter>
+          </Parameters>
+          <ContainedCases>
+            <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+              <EngineMode type="CaseSpecified">
+                <ErrorMode mode="Abort" retry="3" />
+                <FailMode mode="IgnoreFail" retry="3" />
+              </EngineMode>
+              <Limits />
+              <Parameters>
+                <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+                <Parameter name="VisaCmdStrings">{*IDN?
+; }</Parameter>
+                <Parameter name="CmdTimeSpan">50</Parameter>
+                <Parameter name="DisplayName">通用发VISA指令</Parameter>
+              </Parameters>
+              <ContainedCases />
+            </Case>
+            <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+              <EngineMode type="Globe">
+                <ErrorMode mode="Abort" retry="3" />
+                <FailMode mode="IgnoreFail" retry="3" />
+              </EngineMode>
+              <Limits />
+              <Parameters>
+                <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+                <Parameter name="VisaCmdStrings">{*IDN?
+; }</Parameter>
+                <Parameter name="CmdTimeSpan">50</Parameter>
+                <Parameter name="DisplayName">通用发VISA指令</Parameter>
+              </Parameters>
+              <ContainedCases />
+            </Case>
+            <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+              <EngineMode type="Globe">
+                <ErrorMode mode="Abort" retry="3" />
+                <FailMode mode="IgnoreFail" retry="3" />
+              </EngineMode>
+              <Limits />
+              <Parameters>
+                <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+                <Parameter name="VisaCmdStrings">{*IDN?
+; }</Parameter>
+                <Parameter name="CmdTimeSpan">50</Parameter>
+                <Parameter name="DisplayName">通用发VISA指令</Parameter>
+              </Parameters>
+              <ContainedCases />
+            </Case>
+            <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+              <EngineMode type="Globe">
+                <ErrorMode mode="Abort" retry="3" />
+                <FailMode mode="IgnoreFail" retry="3" />
+              </EngineMode>
+              <Limits />
+              <Parameters>
+                <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+                <Parameter name="VisaCmdStrings">{*IDN?
+; }</Parameter>
+                <Parameter name="CmdTimeSpan">50</Parameter>
+                <Parameter name="DisplayName">通用发VISA指令</Parameter>
+              </Parameters>
+              <ContainedCases />
+            </Case>
+            <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+              <EngineMode type="Globe">
+                <ErrorMode mode="Abort" retry="3" />
+                <FailMode mode="IgnoreFail" retry="3" />
+              </EngineMode>
+              <Limits />
+              <Parameters>
+                <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+                <Parameter name="VisaCmdStrings">{*IDN?
+; }</Parameter>
+                <Parameter name="CmdTimeSpan">50</Parameter>
+                <Parameter name="DisplayName">通用发VISA指令</Parameter>
+              </Parameters>
+              <ContainedCases />
+            </Case>
+          </ContainedCases>
+        </Case>
+      </ContainedCases>
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">Rx通道s参数测试</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+        <Parameter name="VisaCmdStrings">{*IDN?
+; }</Parameter>
+        <Parameter name="CmdTimeSpan">50</Parameter>
+        <Parameter name="DisplayName">通用发VISA指令</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+        <Parameter name="VisaCmdStrings">{*IDN?
+; }</Parameter>
+        <Parameter name="CmdTimeSpan">50</Parameter>
+        <Parameter name="DisplayName">通用发VISA指令</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">NI指令</Parameter>
+      </Parameters>
+      <ContainedCases>
+        <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+            <Parameter name="VisaCmdStrings">{*IDN?
+; }</Parameter>
+            <Parameter name="CmdTimeSpan">50</Parameter>
+            <Parameter name="DisplayName">通用发VISA指令</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+            <Parameter name="VisaCmdStrings">{*IDN?
+; }</Parameter>
+            <Parameter name="CmdTimeSpan">50</Parameter>
+            <Parameter name="DisplayName">通用发VISA指令</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+            <Parameter name="VisaCmdStrings">{*IDN?
+; }</Parameter>
+            <Parameter name="CmdTimeSpan">50</Parameter>
+            <Parameter name="DisplayName">通用发VISA指令</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+            <Parameter name="VisaCmdStrings">{*IDN?
+; }</Parameter>
+            <Parameter name="CmdTimeSpan">50</Parameter>
+            <Parameter name="DisplayName">通用发VISA指令</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+      </ContainedCases>
+    </Case>
+  </CaseSequence>
+</TSDP_TS>

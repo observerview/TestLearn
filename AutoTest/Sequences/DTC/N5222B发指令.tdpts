@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TSDP_TS>
+  <Name>N5222B发指令</Name>
+  <Author>sx</Author>
+  <CreatedTime>2025-02-26 10:13:17</CreatedTime>
+  <ModifiedTime>2025-02-28 14:30:32</ModifiedTime>
+  <Description>给N5222B发visa指令</Description>
+  <GlobeEngineMode executedTimes="1">
+    <ErrorMode mode="Abort" retry="0" />
+    <FailMode mode="IgnoreFail" retry="0" />
+  </GlobeEngineMode>
+  <CaseSequence>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">配置</Parameter>
+      </Parameters>
+      <ContainedCases>
+        <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+            <Parameter name="VisaCmdStrings">{*IDN?}</Parameter>
+            <Parameter name="CmdTimeSpan">50</Parameter>
+            <Parameter name="DisplayName">检测</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="VisaAddress">TCPIP0::192.168.1.100::INSTR</Parameter>
+            <Parameter name="VisaCmdStrings">{*IDN?}</Parameter>
+            <Parameter name="CmdTimeSpan">50</Parameter>
+            <Parameter name="DisplayName">通用发VISA指令</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaWrite">
+          <EngineMode type="Skip">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="VisaAddress">TCPIP0::192.168.0.11::INSTR</Parameter>
+            <Parameter name="VisaCmdStrings">{SYST:PRES}</Parameter>
+            <Parameter name="CmdTimeSpan">50</Parameter>
+            <Parameter name="DisplayName">发VISA指令:SYST:PRES</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+          <EngineMode type="Skip">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="DelayTimeSecond">1</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaQuery">
+          <EngineMode type="Skip">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="VisaAddress">TCPIP0::192.168.0.11::INSTR</Parameter>
+            <Parameter name="VisaCmdString">MMEM:LOAD:CSAR "D:/Test2025/s0207.csa"</Parameter>
+            <Parameter name="CmdTimeSpan">50</Parameter>
+            <Parameter name="DisplayName">调用csa模板文件</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+          <EngineMode type="Skip">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="DelayTimeSecond">3</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.CommonVisaQuery">
+          <EngineMode type="Skip">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="VisaAddress">TCPIP0::192.168.0.11::INSTR</Parameter>
+            <Parameter name="VisaCmdString">MMEM:STOR 'D:/Test2025/Data/Test.S2P'</Parameter>
+            <Parameter name="CmdTimeSpan">50</Parameter>
+            <Parameter name="DisplayName">保存测试data(s2p文件)</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+        <Case dllName="DTC\xwx.TDP.Library.DTC.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.DTC.Cases.GetN5222BData">
+          <EngineMode type="Globe">
+            <ErrorMode mode="Abort" retry="3" />
+            <FailMode mode="IgnoreFail" retry="3" />
+          </EngineMode>
+          <Limits />
+          <Parameters>
+            <Parameter name="VisaAddress">TCPIP0::192.168.0.11::INSTR</Parameter>
+            <Parameter name="CmdTimeSpan">10</Parameter>
+            <Parameter name="S2pFilePath">D:/Test2025/Data</Parameter>
+            <Parameter name="S2pLocalFilePath">C:/AutoTest/Logs/DTC</Parameter>
+            <Parameter name="DataFolderName">ZB_RF_#1</Parameter>
+            <Parameter name="S2pFileName">TX1</Parameter>
+            <Parameter name="DisplayName">获取N5222B测试data</Parameter>
+          </Parameters>
+          <ContainedCases />
+        </Case>
+      </ContainedCases>
+    </Case>
+  </CaseSequence>
+</TSDP_TS>

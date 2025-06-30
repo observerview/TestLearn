@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TSDP_TS>
+  <Name>AIS数传测试</Name>
+  <Author>sx</Author>
+  <CreatedTime>2025-01-03 09:50:00</CreatedTime>
+  <ModifiedTime>2025-01-10 10:59:24</ModifiedTime>
+  <Description>sx</Description>
+  <GlobeEngineMode executedTimes="1">
+    <ErrorMode mode="Abort" retry="0" />
+    <FailMode mode="IgnoreFail" retry="0" />
+  </GlobeEngineMode>
+  <CaseSequence>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.MessageBox">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayText">确认融为数传设备的 开始和转发功能已经打开</Parameter>
+        <Parameter name="Icon">Asterisk</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.reciveTelemetryRetrunString">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdNo">23</Parameter>
+        <Parameter name="RcCmdName">卫星编号</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdString">FF FF FF FF FF FF FF FF</Parameter>
+        <Parameter name="Name">卫星编号</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.SendRcCmd">
+      <EngineMode type="Skip">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdString">0A A0 FF FF FF FF FF FF</Parameter>
+        <Parameter name="RcCmdName">入境开始回放</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdNo">00</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.SendRcCmd">
+      <EngineMode type="Skip">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdString">0A A0 FF FF FF FF FF FF</Parameter>
+        <Parameter name="RcCmdName">入境开始回放</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdNo">00</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">5</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.RongweiHDR">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="Ais1CountLimit">[195,205] | System.Int32</Limit>
+        <Limit name="Ais2CountLimit">[195,205] | System.Int32</Limit>
+        <Limit name="Lais1CountLimit">[195,205] | System.Int32</Limit>
+        <Limit name="Lais2CountLimit">[195,205] | System.Int32</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="IpAddr">192.168.1.51</Parameter>
+        <Parameter name="IpPort">3075</Parameter>
+        <Parameter name="LogDirectory">C://Autotest//Logs</Parameter>
+        <Parameter name="ReceiveTime">60000</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.SendRcCmd">
+      <EngineMode type="Skip">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdString">0A A1 FF FF FF FF FF FF</Parameter>
+        <Parameter name="RcCmdName">出境/停止回放</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdNo">00</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1790</Parameter>
+        <Parameter name="DJNumber">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">2</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.SendRcCmd">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdString">0A A0 FF FF FF FF FF FF</Parameter>
+        <Parameter name="RcCmdName">入境开始回放</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdNo">00</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1791</Parameter>
+        <Parameter name="DJNumber">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">10</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.SendRcCmd">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdString">0A A0 FF FF FF FF FF FF</Parameter>
+        <Parameter name="RcCmdName">入境开始回放</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdNo">00</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1791</Parameter>
+        <Parameter name="DJNumber">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.WaitTime">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DelayTimeSecond">10</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.RongweiHDR">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits>
+        <Limit name="Ais1CountLimit">[195,205] | System.Int32</Limit>
+        <Limit name="Ais2CountLimit">[195,205] | System.Int32</Limit>
+        <Limit name="Lais1CountLimit">[195,205] | System.Int32</Limit>
+        <Limit name="Lais2CountLimit">[195,205] | System.Int32</Limit>
+      </Limits>
+      <Parameters>
+        <Parameter name="IpAddr">192.168.1.51</Parameter>
+        <Parameter name="IpPort">3075</Parameter>
+        <Parameter name="LogDirectory">C://Autotest//Logs</Parameter>
+        <Parameter name="ReceiveTime">60000</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="AIS\xwx.TDP.Library.AIS.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.AIS.Cases.Cases.SendRcCmd">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="RcCmdString">0A A1 FF FF FF FF FF FF</Parameter>
+        <Parameter name="RcCmdName">指令名称</Parameter>
+        <Parameter name="RcCmdHead">EB 90</Parameter>
+        <Parameter name="RcCmdNo">00</Parameter>
+        <Parameter name="IpAddr">127.0.0.1</Parameter>
+        <Parameter name="IpPort">1791</Parameter>
+        <Parameter name="DJNumber">1</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">3</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">4</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">5</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">6</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">7</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">8</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+    <Case dllName="Core\xwx.TDP.Library.BaseCase.dll" dllVersion="1.0.0.0" fullName="xwx.TDP.Library.BaseCase.CaseFolder">
+      <EngineMode type="Globe">
+        <ErrorMode mode="Abort" retry="3" />
+        <FailMode mode="IgnoreFail" retry="3" />
+      </EngineMode>
+      <Limits />
+      <Parameters>
+        <Parameter name="DisplayName">9</Parameter>
+      </Parameters>
+      <ContainedCases />
+    </Case>
+  </CaseSequence>
+</TSDP_TS>

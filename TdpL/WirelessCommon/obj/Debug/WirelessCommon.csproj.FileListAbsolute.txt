@@ -1,0 +1,13 @@
+C:\AutoTest\Source\TdpL\WirelessCommon\bin\Debug\WirelessCommon.dll
+C:\AutoTest\Source\TdpL\WirelessCommon\bin\Debug\WirelessCommon.pdb
+C:\AutoTest\Source\TdpL\WirelessCommon\bin\Debug\Ivi.Visa.dll
+C:\AutoTest\Source\TdpL\WirelessCommon\bin\Debug\NationalInstruments.Visa.dll
+C:\AutoTest\Source\TdpL\WirelessCommon\bin\Debug\Ivi.Visa.xml
+C:\AutoTest\Source\TdpL\WirelessCommon\bin\Debug\NationalInstruments.Visa.xml
+C:\AutoTest\Applications\Common\WirelessCommon.dll
+C:\AutoTest\Applications\Common\WirelessCommon.pdb
+C:\AutoTest\Source\TdpL\WirelessCommon\obj\Debug\WirelessCommon.csproj.AssemblyReference.cache
+C:\AutoTest\Source\TdpL\WirelessCommon\obj\Debug\WirelessCommon.csproj.CoreCompileInputs.cache
+C:\AutoTest\Source\TdpL\WirelessCommon\obj\Debug\Wireless.7C164B02.Up2Date
+C:\AutoTest\Source\TdpL\WirelessCommon\obj\Debug\WirelessCommon.dll
+C:\AutoTest\Source\TdpL\WirelessCommon\obj\Debug\WirelessCommon.pdb
