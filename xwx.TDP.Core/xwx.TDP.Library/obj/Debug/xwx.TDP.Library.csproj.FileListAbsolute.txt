@@ -54,3 +54,10 @@ C:\Users\suxin\Desktop\suxing\source\TestDev\TDP\xwx.TDP.Core\xwx.TDP.Library\ob
 C:\Users\suxin\Desktop\suxing\source\TestDev\TDP\xwx.TDP.Core\xwx.TDP.Library\obj\Debug\xwx.TDP.Library.pdb
 C:\AutoTest\Applications\Core\xwx.TDP.Library.dll
 C:\AutoTest\Applications\Core\xwx.TDP.Library.pdb
+D:\AutoTest\Applications\Core\xwx.TDP.Library.dll
+D:\AutoTest\Applications\Core\xwx.TDP.Library.pdb
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\xwx.TDP.Library\obj\Debug\xwx.TDP.Library.csproj.AssemblyReference.cache
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\xwx.TDP.Library\obj\Debug\xwx.TDP.Library.csproj.CoreCompileInputs.cache
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\xwx.TDP.Library\obj\Debug\xwx.TDP.Library.csproj.CopyComplete
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\xwx.TDP.Library\obj\Debug\xwx.TDP.Library.dll
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\xwx.TDP.Library\obj\Debug\xwx.TDP.Library.pdb

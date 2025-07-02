@@ -20,3 +20,12 @@ C:\Users\suxin\Desktop\suxing\source\TestDev\TDP\xwx.TDP.Core\TestManager.Utilit
 C:\Users\suxin\Desktop\suxing\source\TestDev\TDP\xwx.TDP.Core\TestManager.Utility\obj\Debug\TestManager.Utility.pdb
 C:\AutoTest\Applications\Core\TestManager.Utility.dll
 C:\AutoTest\Applications\Core\TestManager.Utility.pdb
+D:\AutoTest\Applications\Core\TestManager.Utility.dll
+D:\AutoTest\Applications\Core\TestManager.Utility.pdb
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Utility\obj\Debug\TestManager.Utility.csproj.AssemblyReference.cache
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Utility\obj\Debug\TestManager.Utility.GenericForm.MessageBoxExCore.resources
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Utility\obj\Debug\TestManager.Utility.csproj.GenerateResource.cache
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Utility\obj\Debug\TestManager.Utility.csproj.CoreCompileInputs.cache
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Utility\obj\Debug\TestManager.Utility.csproj.CopyComplete
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Utility\obj\Debug\TestManager.Utility.dll
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Utility\obj\Debug\TestManager.Utility.pdb

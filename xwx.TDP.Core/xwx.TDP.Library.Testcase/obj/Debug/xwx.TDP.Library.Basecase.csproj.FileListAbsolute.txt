@@ -54,3 +54,10 @@ C:\Users\suxin\Desktop\suxing\source\TestDev\TDP\xwx.TDP.Core\xwx.TDP.Library.Te
 C:\Users\suxin\Desktop\suxing\source\TestDev\TDP\xwx.TDP.Core\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.BaseCase.pdb
 C:\AutoTest\Applications\Core\xwx.TDP.Library.BaseCase.dll
 C:\AutoTest\Applications\Core\xwx.TDP.Library.BaseCase.pdb
+D:\AutoTest\Applications\Core\xwx.TDP.Library.BaseCase.dll
+D:\AutoTest\Applications\Core\xwx.TDP.Library.BaseCase.pdb
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.BaseCase.csproj.AssemblyReference.cache
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.BaseCase.csproj.CoreCompileInputs.cache
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.BaseCase.csproj.CopyComplete
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.BaseCase.dll
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.BaseCase.pdb

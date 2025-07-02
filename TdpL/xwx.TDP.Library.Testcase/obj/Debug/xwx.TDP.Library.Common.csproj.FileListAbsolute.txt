@@ -16,3 +16,11 @@ C:\AutoTest\Source\TdpL\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP..A0C1E20B.Up2
 C:\AutoTest\Source\TdpL\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.Common.dll
 C:\AutoTest\Source\TdpL\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.Common.pdb
 C:\AutoTest\Applications\Common\xwx.TDP.Library.Common.dll.config
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.Common.csproj.AssemblyReference.cache
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.Common.Forms.DevSettings.resources
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.Common.Forms.SystemConfig.resources
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.Common.Properties.Resources.resources
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.Common.csproj.GenerateResource.cache
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.Common.csproj.CoreCompileInputs.cache
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.Common.dll
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.Testcase\obj\Debug\xwx.TDP.Library.Common.pdb

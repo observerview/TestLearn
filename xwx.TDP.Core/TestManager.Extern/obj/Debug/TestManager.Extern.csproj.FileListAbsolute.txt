@@ -54,3 +54,12 @@ C:\Users\suxin\Desktop\suxing\source\TestDev\TDP\xwx.TDP.Core\TestManager.Extern
 C:\Users\suxin\Desktop\suxing\source\TestDev\TDP\xwx.TDP.Core\TestManager.Extern\obj\Debug\TestManager.Extern.pdb
 C:\AutoTest\Applications\Core\TestManager.Extern.dll
 C:\AutoTest\Applications\Core\TestManager.Extern.pdb
+D:\AutoTest\Applications\Core\TestManager.Extern.dll
+D:\AutoTest\Applications\Core\TestManager.Extern.pdb
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Extern\obj\Debug\TestManager.Extern.csproj.AssemblyReference.cache
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Extern\obj\Debug\TestManager.Extern.Properties.Resources.resources
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Extern\obj\Debug\TestManager.Extern.csproj.GenerateResource.cache
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Extern\obj\Debug\TestManager.Extern.csproj.CoreCompileInputs.cache
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Extern\obj\Debug\TestManager.Extern.csproj.CopyComplete
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Extern\obj\Debug\TestManager.Extern.dll
+D:\VS_Projects\CsTestLearn\xwx.TDP.Core\TestManager.Extern\obj\Debug\TestManager.Extern.pdb

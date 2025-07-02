@@ -41,3 +41,7 @@ C:\AutoTest\Source\TdpL\xwx.TDP.Library.DTC\obj\Debug\xwx.TDP.Library.DTC.dll
 C:\AutoTest\Source\TdpL\xwx.TDP.Library.DTC\obj\Debug\xwx.TDP.Library.DTC.pdb
 C:\AutoTest\Applications\DTC\xwx.TDP.Library.DTC.dll
 C:\AutoTest\Applications\DTC\xwx.TDP.Library.DTC.pdb
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.DTC\obj\Debug\xwx.TDP.Library.DTC.csproj.AssemblyReference.cache
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.DTC\obj\Debug\xwx.TDP.Library.DTC.csproj.CoreCompileInputs.cache
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.DTC\obj\Debug\xwx.TDP.Library.DTC.dll
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Library.DTC\obj\Debug\xwx.TDP.Library.DTC.pdb

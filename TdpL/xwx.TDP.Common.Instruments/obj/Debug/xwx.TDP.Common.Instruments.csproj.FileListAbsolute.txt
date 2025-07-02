@@ -16,3 +16,7 @@ C:\AutoTest\Source\TdpL\xwx.TDP.Common.Instruments\obj\Debug\xwx.TDP.Common.Inst
 C:\AutoTest\Source\TdpL\xwx.TDP.Common.Instruments\obj\Debug\xwx.TDP..DB03D3AC.Up2Date
 C:\AutoTest\Source\TdpL\xwx.TDP.Common.Instruments\obj\Debug\xwx.TDP.Common.Instruments.dll
 C:\AutoTest\Source\TdpL\xwx.TDP.Common.Instruments\obj\Debug\xwx.TDP.Common.Instruments.pdb
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Common.Instruments\obj\Debug\xwx.TDP.Common.Instruments.csproj.AssemblyReference.cache
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Common.Instruments\obj\Debug\xwx.TDP.Common.Instruments.csproj.CoreCompileInputs.cache
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Common.Instruments\obj\Debug\xwx.TDP.Common.Instruments.dll
+D:\VS_Projects\CsTestLearn\TdpL\xwx.TDP.Common.Instruments\obj\Debug\xwx.TDP.Common.Instruments.pdb
